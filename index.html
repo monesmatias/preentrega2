@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+HK&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/styles.css">
 
     <title>Naguara - Inicio</title>
@@ -17,17 +18,12 @@
 <body>
 
     <header class="container-fluid header">
-
         <div class="row">
             <img src="./assets/img/logo.jpg" alt="logo" class="w-25">
-
-
             <div class="col header__titulos">
                 <h1 class="col-12 header__h1">Na Guara</h1>
-
-
                 <h2 class="col-12 header__h2">Caribean Fusion</h2>
-                
+
             </div>
             <nav class="col-12 nav-mio">
                 <ul class="nav nav-item nav-fill">
@@ -48,11 +44,56 @@
                     </li>
                 </ul>
             </nav>
-
         </div>
     </header>
+    <main>
+        <section class="row principal">
+            <h3 class="col-12 principal__h3">BIENVENIDOS</h3>
+            <div class="col-12">
+                <P class="principal__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                    mollitia.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, mollitia.Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Sequi, mollitia.Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sequi, mollitia.</P>
+            </div>
+            <div id="carouselExampleSlidesOnly" class="col-12 carousel slide principal__carrusel" data-bs-ride="carousel">
+                <div class="carousel-inner principal__slideshow">
+                    <div class="carousel-item active principal__img">
+                        <img src="./assets/img/comida-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item principal__img">
+                        <img src="./assets/img/comida-2.jpg" class="d-block w-100 principal__img" alt="...">
+                    </div>
+                    <div class="carousel-item principal__img">
+                        <img src="./assets/img/comida-3.jpg" class="d-block w-100 principal__img" alt="...">
+                    </div>
+                    <div class="carousel-item principal__img">
+                        <img src="./assets/img/comida-4.jpg" class="d-block w-100 principal__img" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <script src="../js/bootstrap.bundle.min.js"></script>
+<footer class="row footer">
+    
+    <section class="row">
+
+        <h3 class="col-12 footer__titulo">Conoce nuestras redes </h3>
+
+        <div class="col-12 d-flex justify-content-evenly footer__redes">
+
+            <a href=""><i class="bi bi-whatsapp" class="icon-redes"></i></a>
+
+            <a href=""><i class="bi bi-instagram" class="icon-redes"></i></a>
+
+            <a href=""><i class="bi bi-twitter" class="icon-redes"></i></a>
+        </div>
+
+    </section>
+
+</footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

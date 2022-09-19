@@ -44,7 +44,7 @@ body {
 .nav-link {
     background-color: rgba(230, 195, 40, 0.822);
     color: black;
-    }
+}
 
 .nav-link.active {
     border: 2px solid rgba(0, 0, 0, 0.329);
@@ -58,4 +58,68 @@ body {
 
 .nav-mio {
     background-color: rgba(230, 195, 40, 0.822);
+}
+
+/* INICIO ESTILO MAIN INDEX */
+
+.principal {
+    text-align: center;
+    padding-top: 2.5%;
+}
+
+.principal__h3 {
+    font-size: 6vw;
+    color: #000000;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
+    text-decoration: underline;
+}
+
+.principal__texto {
+        color: #000000;
+    font-size: 4vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2.5%;
+}
+
+.principal__carrusel{
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+.principal__slideshow {
+    width: 50vw;
+    margin-left: 25%;
+border: 2px solid rgba(0, 0, 0, 0.479);
+border-radius: 20px;
+}
+
+.principal__img{
+    height: 25vw;
+    object-fit: cover;
+
+}
+
+/* INICIO ESTILO FOOTER */
+.footer{
+    background-color: rgba(230, 195, 40, 0.822);
+    border: 2px solid rgba(0, 0, 0, 0.479);
+    border-radius: 20px;
+    width: 98vw;
+    margin-left: 1%;
+}
+
+.footer__titulo{
+    text-align: center;
+    font-size: 4vw;
+}
+
+
+.footer__redes{
+    text-align: center;
+    font-size: 8vw;
+}
+.footer__redes a{
+    color:  black;
 }
