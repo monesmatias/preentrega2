@@ -7,10 +7,11 @@
 
 body {
     font-family: 'Noto Serif HK', serif;
+    background: radial-gradient( white, rgba(230, 195, 40, 0.822));
 }
 
 .header {
-    background-color: #d9d9d9;
+    background: radial-gradient( white, rgba(230, 195, 40, 0.822));
 }
 
 .header__titulos {
@@ -59,7 +60,7 @@ body {
     background-color: rgba(230, 195, 40, 0.822);
 }
 
-/* INICIO ESTILO MAIN INDEX */
+/* INICIO ESTILO MAIN */
 
 .principal {
     text-align: center;
@@ -69,7 +70,6 @@ body {
 .principal__h3 {
     font-size: 6vw;
     color: #000000;
-    background: #FFFFFF;
     text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
     text-decoration: underline;
 }
