@@ -118,6 +118,10 @@ body {
 
 /* FIN estilo Sucursales */
 
+.menu__imagen{
+    border: 2px solid black;
+}
+
 
 /* Inicio Estilo formulario Page Trabajo */
 .formulario__div {
