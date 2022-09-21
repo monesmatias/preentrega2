@@ -10,19 +10,18 @@ body {
     background: radial-gradient(white, rgba(230, 195, 40, 0.822));
 }
 
+/* INICIO Estilos Header y NAV */
 .header {
     background: radial-gradient(white, rgba(230, 195, 40, 0.822));
 }
 
 .header__titulos {
     background-image: url(../assets/img/titulo.jpg);
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     opacity: 0.9;
 }
-
 
 .header__h1 {
     font-size: 10vw;
@@ -59,8 +58,9 @@ body {
 .nav-mio {
     background-color: rgba(230, 195, 40, 0.822);
 }
+/* FIN Estilos Header y NAV */
 
-/* INICIO ESTILO MAIN */
+/* INICIO ESTILOS MAIN */
 
 .principal {
     text-align: center;
@@ -82,6 +82,7 @@ body {
     padding-top: 2.5%;
 }
 
+/* INICIO Estilo carrusel page index */
 .principal__carrusel {
     padding-top: 2.5%;
     padding-bottom: 5%;
@@ -98,7 +99,9 @@ body {
     height: 25vw;
     object-fit: cover;
 }
+/* FIN Estilo carrusel page index */
 
+/* Inicio Estilo formulario Page Trabajo */
 .formulario__div {
     font-size: 3vw;
 }
@@ -113,16 +116,6 @@ body {
 }
 .formulario__radio{
     margin-left: 5%;
-}
-
-@media (min-width: 576px) {
-    .formulario__cuadrotexto {
-        width: 95%;
-    }
-
-    .formulario__div {
-        text-align: right;
-    }
 }
 
 .formulario__cuadrotexto:focus {
@@ -147,6 +140,7 @@ body {
     background-color: rgb(168, 139, 7);
     border: 2px solid rgb(202, 139, 3);
 }
+/* FIN Estilo formulario Page Trabajo */
 
 /* INICIO ESTILO FOOTER */
 .footer {
@@ -178,4 +172,19 @@ body {
     width: 75%;
     height: 5%;
     border-top: 2px solid rgba(0, 0, 0, 0.479);
+}
+/* FIN ESTILO FOOTER */
+
+/* Medias Query Responsive */
+@media (min-width: 576px) {
+
+    /* responsive formulario en page Trabajo */
+    .formulario__cuadrotexto {
+        width: 95%;
+    }
+
+    .formulario__div {
+        text-align: right;
+    }
+    /* --------------------------------- */
 }
