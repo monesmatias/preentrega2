@@ -52,11 +52,37 @@
 
         </div>
     </header>
+
     <!-- MAIN -->
 
     <main>
         <section class="container-fluid principal">
-            <h3 class="col-12 principal__h3">Trabaja con Nosotros</h3>
+
+            <h3 class="col-12 principal__h3 pb-2">Trabaja con Nosotros</h3>
+            <form action="" class="row formulario">
+                <div class="col-12 col-sm-6 formulario__div pt-1"><label for="nombre"> Nombre y Apellido:</label></div>
+                <div class="col-12 col-sm-6 formulario__div pt-1"><input type="text" name="nombre" required
+                        placeholder="Ej: Juan Perez" class="formulario__cuadrotexto"></div>
+                <div class="col-12 col-sm-6 formulario__div pt-1 ">Direccion Mail:</div>
+                <div class="col-12 col-sm-6 formulario__div pt-1"><input type="email" name="email" required
+                        placeholder="Ej: nombre@dominio.com" class="formulario__cuadrotexto"></div>
+                <div class="col-12 col-sm-6 formulario__div pt-1 ">Teléfono:</div>
+                <div class="col-12 col-sm-6 formulario__div pt-1"><input type="number" name="telefono" required
+                        placeholder="Ej: 555-5555" class="formulario__cuadrotexto"></div>
+                <div class="col-12 col-sm-6 formulario__div pt-1 ">Sexo:</div>
+                <div class="col-12 col-sm-6 formulario__div d-flex justify-content-center justify-content-sm-start">
+                    <input type="radio" name="sexo" value="hombre" required class="formulario__radio">Hombre</input>
+                    <input type="radio" name="sexo" value="mujer" required class="formulario__radio">Mujer</input>
+                </div>
+                <div class="col-12 col-sm-6 formulario__div pt-1">Adjuntar CV:</div>
+                <div class="col-12 col-sm-6 formulario__div formulario__file pt-1"><input type="file" name="cv"  class="formulario__cuadrotexto pt-1"></div>
+                
+
+                <div class="p-2">
+                    <button class="btn btn-secondary" type="button">Enviar</button>
+                </div>
+            </form>
+
 
         </section>
 

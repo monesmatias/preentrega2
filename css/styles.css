@@ -7,11 +7,11 @@
 
 body {
     font-family: 'Noto Serif HK', serif;
-    background: radial-gradient( white, rgba(230, 195, 40, 0.822));
+    background: radial-gradient(white, rgba(230, 195, 40, 0.822));
 }
 
 .header {
-    background: radial-gradient( white, rgba(230, 195, 40, 0.822));
+    background: radial-gradient(white, rgba(230, 195, 40, 0.822));
 }
 
 .header__titulos {
@@ -68,7 +68,7 @@ body {
 }
 
 .principal__h3 {
-    font-size: 6vw;
+    font-size: 4vw;
     color: #000000;
     text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
     text-decoration: underline;
@@ -76,7 +76,7 @@ body {
 
 .principal__texto {
     color: #000000;
-    font-size: 4vw;
+    font-size: 3vw;
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 2.5%;
@@ -97,12 +97,61 @@ body {
 .principal__img {
     height: 25vw;
     object-fit: cover;
+}
 
+.formulario__div {
+    font-size: 3vw;
+}
+
+.formulario {
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+}
+
+.formulario__cuadrotexto {
+    width: 50%;
+}
+.formulario__radio{
+    margin-left: 5%;
+}
+
+@media (min-width: 576px) {
+    .formulario__cuadrotexto {
+        width: 95%;
+    }
+
+    .formulario__div {
+        text-align: right;
+    }
+}
+
+.formulario__cuadrotexto:focus {
+    outline: 1px solid rgb(168, 139, 7);
+}
+
+.formulario__file{
+    font-size: 2vw;
+}
+
+.btn {
+    background-color: rgb(221, 183, 11);
+
+    color: #000000;
+    border: 2px solid rgba(0, 0, 0, 0.479);
+    transition-property: all;
+    transition-duration: 800ms;
+    transition-timing-function: ease;
+}
+
+.btn.btn-secondary:hover {
+    background-color: rgb(168, 139, 7);
+    border: 2px solid rgb(202, 139, 3);
 }
 
 /* INICIO ESTILO FOOTER */
 .footer {
     background-color: rgba(230, 195, 40, 0.822);
+
 
 }
 
@@ -123,7 +172,7 @@ body {
     color: black;
 }
 
-.footer__piedepagina{
+.footer__piedepagina {
     font-size: 2.5vw;
     padding: 1.5%;
     width: 75%;
