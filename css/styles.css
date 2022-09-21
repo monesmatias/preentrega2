@@ -58,6 +58,7 @@ body {
 .nav-mio {
     background-color: rgba(230, 195, 40, 0.822);
 }
+
 /* FIN Estilos Header y NAV */
 
 /* INICIO ESTILOS MAIN */
@@ -80,6 +81,7 @@ body {
     text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
     text-decoration: underline;
 }
+
 .principal__texto {
     color: #000000;
     font-size: 3vw;
@@ -105,11 +107,12 @@ body {
     height: 25vw;
     object-fit: cover;
 }
+
 /* FIN Estilo carrusel page index */
 
 /* INICIO estilo Sucursales */
 
-.mapa{
+.mapa {
     width: 95%;
     height: 95%;
     border: 2px solid black;
@@ -117,11 +120,6 @@ body {
 }
 
 /* FIN estilo Sucursales */
-
-.menu__imagen{
-    border: 2px solid black;
-}
-
 
 /* Inicio Estilo formulario Page Trabajo */
 .formulario__div {
@@ -136,7 +134,8 @@ body {
 .formulario__cuadrotexto {
     width: 50%;
 }
-.formulario__radio{
+
+.formulario__radio {
     margin-left: 5%;
 }
 
@@ -144,7 +143,7 @@ body {
     outline: 1px solid rgb(168, 139, 7);
 }
 
-.formulario__file{
+.formulario__file {
     font-size: 2vw;
 }
 
@@ -162,7 +161,28 @@ body {
     background-color: rgb(168, 139, 7);
     border: 2px solid rgb(202, 139, 3);
 }
+
 /* FIN Estilo formulario Page Trabajo */
+
+/* INICIO Estilo Page Nosotros */
+
+.animacion {
+    animation-name: mover-caja;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes mover-caja{
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+/* FIN Estilo Page Nosotros */
 
 /* INICIO ESTILO FOOTER */
 .footer {
@@ -195,6 +215,7 @@ body {
     height: 5%;
     border-top: 2px solid rgba(0, 0, 0, 0.479);
 }
+
 /* FIN ESTILO FOOTER */
 
 /* Medias Query Responsive */
@@ -208,5 +229,6 @@ body {
     .formulario__div {
         text-align: right;
     }
+
     /* --------------------------------- */
 }
