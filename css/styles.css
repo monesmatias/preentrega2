@@ -74,6 +74,12 @@ body {
     text-decoration: underline;
 }
 
+.principal__h4 {
+    font-size: 3.5vw;
+    color: #000000;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
+    text-decoration: underline;
+}
 .principal__texto {
     color: #000000;
     font-size: 3vw;
@@ -100,6 +106,18 @@ body {
     object-fit: cover;
 }
 /* FIN Estilo carrusel page index */
+
+/* INICIO estilo Sucursales */
+
+.mapa{
+    width: 95%;
+    height: 95%;
+    border: 2px solid black;
+
+}
+
+/* FIN estilo Sucursales */
+
 
 /* Inicio Estilo formulario Page Trabajo */
 .formulario__div {
