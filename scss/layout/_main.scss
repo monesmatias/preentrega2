@@ -1,5 +1,4 @@
 .principal {
-    text-align: center;
     padding-top: 2.5%;
 
     &__h3 {
@@ -11,7 +10,8 @@
         font-size: 3.5vw;
         @include estilo-titulos();
     }
-    &__texto{
+
+    &__texto {
         color: #000000;
         font-size: 3vw;
         margin-left: 10%;

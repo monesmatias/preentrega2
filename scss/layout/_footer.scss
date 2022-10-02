@@ -1,19 +1,22 @@
-.footer{
+.footer {
     background-color: $color3;
-    &__titulo{
-        text-align: center;
+
+    &__titulo {
+
         text-decoration: underline;
         font-size: 4vw;
     }
-    &__redes{
-        text-align: center;
+
+    &__redes {
         font-size: 6vw;
         padding-bottom: 2.5%;
-        & a{
+
+        & a {
             color: black;
         }
     }
-    &__piedepagina{
+
+    &__piedepagina {
         font-size: 2.5vw;
         padding: 1.5%;
         width: 75%;
