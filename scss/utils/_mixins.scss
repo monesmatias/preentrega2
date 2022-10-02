@@ -1,0 +1,12 @@
+@mixin estilo-titulos {
+    color: #000000;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
+    text-decoration: underline;
+}
+
+@mixin mobile-lg {
+    @media (min-width: 576px) {
+        @content;
+    }
+}
+

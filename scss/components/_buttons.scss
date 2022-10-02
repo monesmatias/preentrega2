@@ -1,0 +1,14 @@
+.boton {
+    background-color: $color2;
+
+    color: #000000;
+    border: 2px solid rgba(0, 0, 0, 0.479);
+    transition-property: all;
+    transition-duration: 800ms;
+    transition-timing-function: ease;
+}
+
+.btn.btn-secondary:hover {
+    background-color: rgb(168, 139, 7);
+    border: 2px solid rgb(202, 139, 3);
+}

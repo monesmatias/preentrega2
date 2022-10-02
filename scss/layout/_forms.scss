@@ -1,0 +1,27 @@
+.formulario {
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    &__div{
+        font-size: 3vw;
+    }
+    &__cuadrotexto{
+        width: 50%;
+    }
+    &__cuadrotexto:focus{
+        outline: 1px solid rgb(168, 139, 7);
+    }
+    &__radio{
+        margin-left: 5%;
+    }
+    &__file{
+        font-size: 2vw;
+    }
+    @include mobile-lg{
+        .formulario__cuadrotexto {
+            width: 95%;
+        }
+        .formulario__div {
+            text-align: right;
+        }    
+    }
+}
