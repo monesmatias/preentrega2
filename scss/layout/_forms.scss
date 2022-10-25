@@ -1,27 +1,46 @@
 .formulario {
     padding-right: 2.5%;
     padding-left: 2.5%;
-    &__div{
-        font-size: 3vw;
+
+    &__div {
+        font-size: 1rem;
     }
-    &__cuadrotexto{
+
+    &__cuadrotexto {
         width: 50%;
     }
-    &__cuadrotexto:focus{
+
+    &__cuadrotexto:focus {
         outline: 1px solid rgb(168, 139, 7);
     }
-    &__radio{
+
+    &__radio {
         margin-left: 5%;
     }
-    &__file{
-        font-size: 2vw;
+
+    &__file {
+        font-size: 0.6rem;
     }
-    @include mobile-lg{
+
+    @include mobile-lg {
         .formulario__cuadrotexto {
             width: 95%;
         }
+
         .formulario__div {
             text-align: right;
-        }    
+        }
+    }
+    @include size-480 {
+        .formulario__div {
+            font-size: 1.5rem;
+        }
+        
+    }
+    @include size-1200 {
+        .formulario__div {
+            font-size: 2rem;
+        }
+        
     }
 }

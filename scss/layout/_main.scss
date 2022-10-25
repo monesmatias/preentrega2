@@ -3,20 +3,32 @@
     padding-top: 2.5%;
 
     &__h3 {
-        font-size: 4vw;
+        font-size: 1.5rem;
         @include estilo-titulos();
     }
 
     &__h4 {
-        font-size: 3.5vw;
+        font-size: 1rem;
         @include estilo-titulos();
     }
 
     &__texto {
         color: #000000;
-        font-size: 3vw;
+        font-size: 0.75rem;
         margin-left: 10%;
         margin-right: 10%;
         padding-top: 2.5%;
+    }
+
+    @include size-480 {
+        .principal__h3 {
+            font-size: 2rem;
+        }
+        .principal__h4 {
+            font-size: 1.5rem;
+        }
+        .principal__texto {
+            font-size: 1.5rem;
+        }
     }
 }

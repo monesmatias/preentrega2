@@ -10,3 +10,20 @@
     }
 }
 
+@mixin size-480 {
+    @media (min-width: 480px) {
+        @content;
+    }
+}
+
+@mixin size-768 {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin size-1200 {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}

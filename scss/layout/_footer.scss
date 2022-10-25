@@ -4,11 +4,11 @@
     &__titulo {
         text-align: center;
         text-decoration: underline;
-        font-size: 4vw;
+        font-size: 1rem;
     }
 
     &__redes {
-        font-size: 6vw;
+        font-size: 1.5rem;
         padding-bottom: 2.5%;
 
         & a {
@@ -17,10 +17,44 @@
     }
 
     &__piedepagina {
-        font-size: 2.5vw;
+        font-size: 0.75rem;
         padding: 1.5%;
         width: 75%;
         height: 5%;
         border-top: 2px solid rgba(0, 0, 0, 0.479);
+    }
+
+    @include size-480 {
+        .footer__titulo {
+            font-size: 1.5rem;
+        }
+        .footer__redes {
+            font-size: 2rem;
+        }
+        .footer__piedepagina {
+            font-size: 1rem;
+        }
+    }
+    @include size-768 {
+        .footer__titulo {
+            font-size: 2rem;
+        }
+        .footer__redes {
+            font-size: 2.5rem;
+        }
+        .footer__piedepagina {
+            font-size: 1.5rem;
+        }
+    }
+    @include size-1200 {
+        .footer__titulo {
+            font-size: 2.5rem;
+        }
+        .footer__redes {
+            font-size: 3.5rem;
+        }
+        .footer__piedepagina {
+            font-size: 2rem;
+        }
     }
 }
